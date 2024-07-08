@@ -1,0 +1,28 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color:#444444;
+    color: white;
+    height: 60px;
+}
+
+.navContainer h1{
+    margin: 0;
+}
+
+.navContainer ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navContainer a{
+    color: white;
+    text-decoration: none;
+}
+
+.navContainer a:hover{
+    color: #e88426;
+}

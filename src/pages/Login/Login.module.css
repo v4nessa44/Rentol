@@ -1,0 +1,36 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginBox{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginBox h1{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.loginBox input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.loginBox button{
+    width: 95%;
+    padding: 10px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginBox button:hover{
+    background-color: #e88426 ;
+}
